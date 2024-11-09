@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Instalando Yarn
+      - name: Instalando Dependência
         run: npm install
 
       - name: Testes E2E (end-to-end)
