@@ -14,7 +14,7 @@ jobs:
         run: npm install
 
       - name: Testes E2E (end-to-end)
-        run: npx cypress run
+        run: npx run e2e
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
