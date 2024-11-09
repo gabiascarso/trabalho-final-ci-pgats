@@ -1,0 +1,2 @@
+BUILD_ID=952d36f89649707bacb911ca4cbba3860bcbb768
+BUILD_URL=https://automate.browserstack.com/dashboard/v2/builds/952d36f89649707bacb911ca4cbba3860bcbb768
