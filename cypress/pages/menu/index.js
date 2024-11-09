@@ -2,14 +2,8 @@ class Menu {
     menus = {
         PRODUTOS: 'Products',
         LOGIN: 'Signup',
-        DESLOGAR: 'Logout'
-    }
-    irParaProdutos() {
-        cy.contains(`Products`).click()
-    }
-
-    irParaLoginCadastro() {
-        cy.contains('Signup').click()
+        DESLOGAR: 'Logout',
+        CONTATO: 'Contact us'
     }
 
     irPara(menu){
@@ -18,6 +12,7 @@ class Menu {
 }
 
 export default new Menu()
+
 
 
 
